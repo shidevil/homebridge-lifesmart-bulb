@@ -66,14 +66,6 @@ lifesmartBulb.prototype.findBulb = function(mac, callback) {
     });
 };
 
-function wait(ms){
-   var start = new Date().getTime();
-   var end = start;
-   while(end < start + ms) {
-     end = new Date().getTime();
-  }
-}
-
 lifesmartBulb.prototype.attemptConnect = function(callback){
     if (this.peripheral || peripheral.state == "connected") {
         callback(true);
