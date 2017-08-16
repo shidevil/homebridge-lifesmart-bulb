@@ -29,7 +29,8 @@ sudo npm -g install
 
 ## Issues
 
-RGB,HUE,Brightness are not working as reversing the bluetooth protocol was faced with difficulty. If anyone requires the bluetooth wireshark protocol. Feel free to ask
+1) When starting the plugin, the bulb will be turned on automatically. This is due to the get state issue if the bulb is not turned on automatically, the get state will not be accurate. 
+2) RGB,HUE,Brightness are not working as reversing the bluetooth protocol was faced with difficulty. If anyone requires the bluetooth wireshark protocol. Feel free to ask
 
 ## Credit
 
